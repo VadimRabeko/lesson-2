@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 1402px;
+  height: 587px;
+  margin: 0 auto;
+}
+
+.line {
+  width: 64px;
+  height: 2px;
+  margin: 22px auto 22px auto;
+  background-color: rgba(255, 139, 56, 1);
+}
+
+.text {
+  text-align: center;
+  font-family: raleway;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(134, 135, 139, 1);
+}
+
+.textTitle {
+  margin-top: 102px;
+  font-size: 36px;
+  line-height: 43px;
+  color: rgba(33, 33, 33, 1);
+}
+
+.textHeader {
+  width: 389px;
+  height: 20px;
+  margin-top: 22 px;
+  margin-right: auto;
+  margin-left: 521px;
+}
+
+.textSubtitle {
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(33, 33, 33, 1);
+}
+.wrapper {
+  margin: 66px 144px 111px 145px;
+  display: flex;
+  flex-direction: row;
+}
+
+.backgroundImage {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 27px;
+  border: 2px solid rgba(255, 139, 56, 1);
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bulb {
+  background-image: url(images/1.jpg);
+  padding: 17px 26px 16px;
+}
+
+.keyboard {
+  background-image: url(images/2.jpg);
+  padding: 16px 18px 17px;
+}
+
+.power {
+  background-image: url(images/3.jpg);
+  padding: 17px 26px 16px;
+}
+
+.centralSection {
+  margin-left: 33px;
+  margin-right: 33px;
+}
